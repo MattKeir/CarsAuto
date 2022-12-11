@@ -1,0 +1,184 @@
+@import url('./layout.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.logo {
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+.navlinks ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navlinks li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-family:Tahoma;
+    font-weight: bold;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navlinks li:hover {
+    transition-duration: .5s;
+    background-color: rgb(70, 128, 236);
+}
+
+.navbutton button {
+    background-color: green;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    transition: all .2s ease-in-out; 
+}
+
+button:hover { 
+transform: scale(1.1); 
+}
+
+
+
+
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    height: 500px;
+}
+
+h3 {
+    font-size: 3rem;
+    font-family:Tahoma;
+    font-weight: bold;
+}
+
+ #serviceitems article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(144, 174, 230);
+    
+}
+
+h5 {
+    font-size: 2rem;
+    align-items: center;
+    font-family:Verdana;
+}
+
+main article img {
+    width: 200px;
+    float: right;
+    margin-right: 2EM;
+    padding-bottom: 1em;
+
+}
+
+main p {
+    padding-bottom: 1em;
+    margin: 5%;
+
+}
+
+main article {
+    border: black solid .1rem;
+
+}
+
+#serviceitems article {
+    border: black dashed .2em;
+}
+    
+
+
+
+main article div {
+
+
+
+
+    
+    text-align: center;
+
+    color: white;
+    background-color: rgb(66, 65, 65);
+    width: 70%;
+
+    margin-left: 2.5em;
+
+}
+
+#price {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+
+
+footer {
+    margin-bottom: 10em;
+    background-color: yellow;
+    height: 200px;
+
+}
+
+#footerimages {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+footer ul {
+
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+footer li {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    padding: 3em;
+    margin-left: 4.8em;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+footer img {
+    width: 50px
+}
